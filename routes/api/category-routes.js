@@ -27,7 +27,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (!categoryData) {
-      res.status(404).json({ message: 'No category found with that id!' });
+      res.status(404).json({ message: 'ID not associated with any categories' });
       return;
     }
 
@@ -56,7 +56,7 @@ router.put('/:id', async (req, res) => {
       }
     });
     if (!categoryData[0]) {
-      res.status(404).json({ message: 'No category found with that id!' });
+      res.status(404).json({ message: 'ID not associated with any categories' });
       return;
     }
     res.status(200).json(categoryData);
@@ -72,7 +72,7 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id, }
     });
     if (!categoryData) {
-      res.status(404).json({ message: 'No trip with this id!' });
+      res.status(404).json({ message: 'ID not associated with any trip' });
       return;
     }
     res.status(200).json(categoryData);

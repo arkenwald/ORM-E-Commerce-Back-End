@@ -29,7 +29,7 @@ router.get('/:id', async (req, res) => {
     });
 
     if (!tagData) {
-      res.status(404).json({ message: 'No tag found with that id!' });
+      res.status(404).json({ message: 'ID not associated with any tags' });
       return;
     }
 
@@ -58,7 +58,7 @@ router.put('/:id', async (req, res) => {
       }
     });
     if (!tagData[0]) {
-      res.status(404).json({ message: 'ID associated with no tags' });
+      res.status(404).json({ message: 'ID not associated with any tags' });
       return;
     }
     res.status(200).json(tagData);
@@ -74,10 +74,10 @@ router.delete('/:id', async (req, res) => {
       where: { id: req.params.id, }
     });
     if (!tagData) {
-      res.status(404).json({ message: 'No tag with this id!' });
+      res.status(404).json({ message: 'ID not associated with any tags' });
       return;
     }
-    res.status(200).json('Tag has been deleted..!!');
+    res.status(200).json('Tag has been deleted!');
   } catch (err) {
     res.status(500).json(err);
   }

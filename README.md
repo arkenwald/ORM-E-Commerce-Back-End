@@ -26,32 +26,23 @@ To install the project:
 
 Usage
 
-The user will be able to see the current date and time once the planner is opened.
+WHEN I open API GET routes in Insomnia for categories, products, or tags
 
-There are time slots in which the user may input their important event that they wish to have saved.
+THEN the data for each of these routes is displayed in a formatted JSON
 
-The time slots are color coded in relative to the current time of the user:
+WHEN I test API POST, PUT, and DELETE routes in Insomnia
 
-Grey: Past
-
-Red: Current Hour
-
-Green: Future
-
-Once the user inputs their event, they may click on the save button within that timeblock to have it saved in local storage.
+THEN I am able to successfully create, update, and delete data in my database
 
 
-Live URL:
-
-https://arkenwald.github.io/work-day-scheduler/
 
 GitHub Repository:
 
-https://github.com/arkenwald/work-day-scheduler
+https://github.com/arkenwald/ORM-E-Commerce-Back-End
 
-Screenshot of Live Page:
+Video Walkthrough:
 
-<img width="960" alt="screenshot1" src="https://github.com/arkenwald/work-day-scheduler/assets/149994852/8b29d2f5-793b-456a-9472-6e72800a863c">
+
 
 
 

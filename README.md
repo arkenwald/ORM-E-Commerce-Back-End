@@ -6,16 +6,22 @@ Description
 
 This project is for self-improvement and practice in order to provide myself with confidence within this industry.
 
-A daily planner was created with HTML, JavaScript, Bootstrap, JQuery, and Dayjs libraries to add important events.
+This back end for an e-commerce site was created by modifying starter code given to us.  
 
-A great way to manage time effectively with colour coded time blocks.
+Express.js API and Sequelize was used to interact with a MySQL database.
 
 
 Installation
 
-To install the project, I've initiated my local working folder into a GitHub Repository, then pushed the local files to the Repository after adding and commiting the updated codes.
+To install the project:
 
-To access the project, please enter the Live Page URL found below.
+npm i
+
+mysql source schema.sql
+
+npm run seed
+
+npm start
 
 
 Usage

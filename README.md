@@ -55,18 +55,13 @@ https://github.com/pnguyen412
 
 Website Resources:
 
-https://day.js.org/docs/en/get-set/hour
+https://www.npmjs.com/package/dotenv
 
-https://day.js.org/docs/en/display/format
+https://sequelize.org/docs/v6/core-concepts/model-querying-finders/
 
-https://fontawesome.com/
+https://sequelize.org/docs/v6/core-concepts/validations-and-constraints/
 
-https://www.freecodecamp.org/news/javascript-foreach-js-array-for-each-example/
-
-https://www.w3schools.com/jquery/event_ready.asp
-
-https://www.w3schools.com/jsref/jsref_split.asp
-
+https://sequelize.org/docs/v6/core-concepts/assocs/
 
 License
 

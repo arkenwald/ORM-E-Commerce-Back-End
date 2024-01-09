@@ -42,7 +42,7 @@ https://github.com/arkenwald/ORM-E-Commerce-Back-End
 
 Video Walkthrough:
 
-
+https://drive.google.com/file/d/1ptA0LpeVrfBAq-DGmXkPAiK6RuCcYHFr/view
 
 
 

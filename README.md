@@ -15,13 +15,13 @@ Installation
 
 To install the project:
 
-npm i
+  npm i
 
-mysql source schema.sql
+  mysql source schema.sql
 
-npm run seed
+  npm run seed
 
-npm start
+  npm start
 
 
 Usage
